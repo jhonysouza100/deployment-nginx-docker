@@ -20,3 +20,15 @@ Este repositorio contiene un ejemplo simple de c√≥mo desplegar un sitio web est√
 - Docker
 
 - Nginx
+
+## Comandos
+
+### Construir una imagen
+```cmd
+docker build . -t [a-image-name]:[a-image-version]
+```
+
+### Levantar un contenedor desde la imagen
+
+```cmd
+docker run -p [a-port]:80 [image-name]:[image-version]
